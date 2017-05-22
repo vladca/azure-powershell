@@ -1,8 +1,8 @@
 {
   "Entries": [
     {
-      "RequestUri": "/subscriptions/e68d4145-c9ae-4667-925d-c51c8d88ad73/resourcegroups/onesdk3513?api-version=2016-02-01",
-      "EncodedRequestUri": "L3N1YnNjcmlwdGlvbnMvZTY4ZDQxNDUtYzlhZS00NjY3LTkyNWQtYzUxYzhkODhhZDczL3Jlc291cmNlZ3JvdXBzL29uZXNkazM1MTM/YXBpLXZlcnNpb249MjAxNi0wMi0wMQ==",
+      "RequestUri": "/subscriptions/e68d4145-c9ae-4667-925d-c51c8d88ad73/resourcegroups/onesdk2647?api-version=2016-02-01",
+      "EncodedRequestUri": "L3N1YnNjcmlwdGlvbnMvZTY4ZDQxNDUtYzlhZS00NjY3LTkyNWQtYzUxYzhkODhhZDczL3Jlc291cmNlZ3JvdXBzL29uZXNkazI2NDc/YXBpLXZlcnNpb249MjAxNi0wMi0wMQ==",
       "RequestMethod": "PUT",
       "RequestBody": "{\r\n  \"location\": \"West US\"\r\n}",
       "RequestHeaders": {
@@ -16,7 +16,7 @@
           "Microsoft.Azure.Management.Resources.ResourceManagementClient/2.0.0.0"
         ]
       },
-      "ResponseBody": "{\r\n  \"id\": \"/subscriptions/e68d4145-c9ae-4667-925d-c51c8d88ad73/resourceGroups/onesdk3513\",\r\n  \"name\": \"onesdk3513\",\r\n  \"location\": \"westus\",\r\n  \"properties\": {\r\n    \"provisioningState\": \"Succeeded\"\r\n  }\r\n}",
+      "ResponseBody": "{\r\n  \"id\": \"/subscriptions/e68d4145-c9ae-4667-925d-c51c8d88ad73/resourceGroups/onesdk2647\",\r\n  \"name\": \"onesdk2647\",\r\n  \"location\": \"westus\",\r\n  \"properties\": {\r\n    \"provisioningState\": \"Succeeded\"\r\n  }\r\n}",
       "ResponseHeaders": {
         "Content-Length": [
           "173"
@@ -31,16 +31,16 @@
           "no-cache"
         ],
         "x-ms-ratelimit-remaining-subscription-writes": [
-          "1183"
+          "1194"
         ],
         "x-ms-request-id": [
-          "f15d2f7f-8bc8-42b2-9ba6-8f29337200db"
+          "bf5528db-11da-4314-a9c1-47c5915c9e30"
         ],
         "x-ms-correlation-request-id": [
-          "f15d2f7f-8bc8-42b2-9ba6-8f29337200db"
+          "bf5528db-11da-4314-a9c1-47c5915c9e30"
         ],
         "x-ms-routing-request-id": [
-          "NORTHEUROPE:20170303T183519Z:f15d2f7f-8bc8-42b2-9ba6-8f29337200db"
+          "CENTRALUS:20170519T160346Z:bf5528db-11da-4314-a9c1-47c5915c9e30"
         ],
         "Strict-Transport-Security": [
           "max-age=31536000; includeSubDomains"
@@ -49,19 +49,28 @@
           "no-cache"
         ],
         "Date": [
-          "Fri, 03 Mar 2017 18:35:18 GMT"
+          "Fri, 19 May 2017 16:03:45 GMT"
         ]
       },
       "StatusCode": 201
     },
     {
-      "RequestUri": "/subscriptions/e68d4145-c9ae-4667-925d-c51c8d88ad73/resourceGroups/onesdk3513/providers/Microsoft.Network/trafficmanagerprofiles/onesdk4190?api-version=2017-03-01",
-      "EncodedRequestUri": "L3N1YnNjcmlwdGlvbnMvZTY4ZDQxNDUtYzlhZS00NjY3LTkyNWQtYzUxYzhkODhhZDczL3Jlc291cmNlR3JvdXBzL29uZXNkazM1MTMvcHJvdmlkZXJzL01pY3Jvc29mdC5OZXR3b3JrL3RyYWZmaWNtYW5hZ2VycHJvZmlsZXMvb25lc2RrNDE5MD9hcGktdmVyc2lvbj0yMDE3LTAzLTAx",
+      "RequestUri": "/subscriptions/e68d4145-c9ae-4667-925d-c51c8d88ad73/resourceGroups/onesdk2647/providers/Microsoft.Network/trafficmanagerprofiles/onesdk3198?api-version=2017-05-01",
+      "EncodedRequestUri": "L3N1YnNjcmlwdGlvbnMvZTY4ZDQxNDUtYzlhZS00NjY3LTkyNWQtYzUxYzhkODhhZDczL3Jlc291cmNlR3JvdXBzL29uZXNkazI2NDcvcHJvdmlkZXJzL01pY3Jvc29mdC5OZXR3b3JrL3RyYWZmaWNtYW5hZ2VycHJvZmlsZXMvb25lc2RrMzE5OD9hcGktdmVyc2lvbj0yMDE3LTA1LTAx",
       "RequestMethod": "DELETE",
       "RequestBody": "",
       "RequestHeaders": {
+        "x-ms-client-request-id": [
+          "717c9297-8d3c-4377-b530-3511573d64b9"
+        ],
+        "accept-language": [
+          "en-US"
+        ],
         "User-Agent": [
-          "Microsoft.Azure.Management.TrafficManager.TrafficManagerManagementClient/1.1.0.0"
+          "FxVersion/4.6.1648.0",
+          "OSName/Windows10Enterprise",
+          "OSVersion/6.3.14393",
+          "Microsoft.Azure.Management.TrafficManager.TrafficManagerManagementClient/2.3.0.0"
         ]
       },
       "ResponseBody": "",
@@ -76,13 +85,13 @@
           "10797"
         ],
         "x-ms-request-id": [
-          "38108d16-0d2c-450a-b7f8-cecbaa13b24b"
+          "4eff6b1c-2923-4190-87db-ef9690ce36d5"
         ],
         "x-ms-correlation-request-id": [
-          "38108d16-0d2c-450a-b7f8-cecbaa13b24b"
+          "4eff6b1c-2923-4190-87db-ef9690ce36d5"
         ],
         "x-ms-routing-request-id": [
-          "NORTHEUROPE:20170303T183525Z:38108d16-0d2c-450a-b7f8-cecbaa13b24b"
+          "CENTRALUS:20170519T160347Z:4eff6b1c-2923-4190-87db-ef9690ce36d5"
         ],
         "Strict-Transport-Security": [
           "max-age=31536000; includeSubDomains"
@@ -91,7 +100,7 @@
           "no-cache"
         ],
         "Date": [
-          "Fri, 03 Mar 2017 18:35:24 GMT"
+          "Fri, 19 May 2017 16:03:47 GMT"
         ]
       },
       "StatusCode": 204
@@ -99,8 +108,8 @@
   ],
   "Names": {
     "Test-ProfileRemoveNonExisting": [
-      "onesdk4190",
-      "onesdk3513"
+      "onesdk3198",
+      "onesdk2647"
     ]
   },
   "Variables": {
