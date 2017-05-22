@@ -1,8 +1,8 @@
 {
   "Entries": [
     {
-      "RequestUri": "/subscriptions/e68d4145-c9ae-4667-925d-c51c8d88ad73/resourcegroups/onesdk7859?api-version=2016-02-01",
-      "EncodedRequestUri": "L3N1YnNjcmlwdGlvbnMvZTY4ZDQxNDUtYzlhZS00NjY3LTkyNWQtYzUxYzhkODhhZDczL3Jlc291cmNlZ3JvdXBzL29uZXNkazc4NTk/YXBpLXZlcnNpb249MjAxNi0wMi0wMQ==",
+      "RequestUri": "/subscriptions/e68d4145-c9ae-4667-925d-c51c8d88ad73/resourcegroups/onesdk5017?api-version=2016-02-01",
+      "EncodedRequestUri": "L3N1YnNjcmlwdGlvbnMvZTY4ZDQxNDUtYzlhZS00NjY3LTkyNWQtYzUxYzhkODhhZDczL3Jlc291cmNlZ3JvdXBzL29uZXNkazUwMTc/YXBpLXZlcnNpb249MjAxNi0wMi0wMQ==",
       "RequestMethod": "PUT",
       "RequestBody": "{\r\n  \"location\": \"West US\"\r\n}",
       "RequestHeaders": {
@@ -16,7 +16,7 @@
           "Microsoft.Azure.Management.Resources.ResourceManagementClient/2.0.0.0"
         ]
       },
-      "ResponseBody": "{\r\n  \"id\": \"/subscriptions/e68d4145-c9ae-4667-925d-c51c8d88ad73/resourceGroups/onesdk7859\",\r\n  \"name\": \"onesdk7859\",\r\n  \"location\": \"westus\",\r\n  \"properties\": {\r\n    \"provisioningState\": \"Succeeded\"\r\n  }\r\n}",
+      "ResponseBody": "{\r\n  \"id\": \"/subscriptions/e68d4145-c9ae-4667-925d-c51c8d88ad73/resourceGroups/onesdk5017\",\r\n  \"name\": \"onesdk5017\",\r\n  \"location\": \"westus\",\r\n  \"properties\": {\r\n    \"provisioningState\": \"Succeeded\"\r\n  }\r\n}",
       "ResponseHeaders": {
         "Content-Length": [
           "173"
@@ -31,16 +31,16 @@
           "no-cache"
         ],
         "x-ms-ratelimit-remaining-subscription-writes": [
-          "1197"
+          "1193"
         ],
         "x-ms-request-id": [
-          "f1e1ff1d-2e8c-4de3-b1d2-5c90eeae7ef8"
+          "f5737a9e-5b01-419a-9f22-b2ebeabb1640"
         ],
         "x-ms-correlation-request-id": [
-          "f1e1ff1d-2e8c-4de3-b1d2-5c90eeae7ef8"
+          "f5737a9e-5b01-419a-9f22-b2ebeabb1640"
         ],
         "x-ms-routing-request-id": [
-          "CENTRALUS:20170519T160411Z:f1e1ff1d-2e8c-4de3-b1d2-5c90eeae7ef8"
+          "WESTEUROPE:20170522T111225Z:f5737a9e-5b01-419a-9f22-b2ebeabb1640"
         ],
         "Strict-Transport-Security": [
           "max-age=31536000; includeSubDomains"
@@ -49,19 +49,19 @@
           "no-cache"
         ],
         "Date": [
-          "Fri, 19 May 2017 16:04:11 GMT"
+          "Mon, 22 May 2017 11:12:25 GMT"
         ]
       },
       "StatusCode": 201
     },
     {
-      "RequestUri": "/subscriptions/e68d4145-c9ae-4667-925d-c51c8d88ad73/resourceGroups/onesdk7859/providers/Microsoft.Network/trafficmanagerprofiles/onesdk1218?api-version=2017-05-01",
-      "EncodedRequestUri": "L3N1YnNjcmlwdGlvbnMvZTY4ZDQxNDUtYzlhZS00NjY3LTkyNWQtYzUxYzhkODhhZDczL3Jlc291cmNlR3JvdXBzL29uZXNkazc4NTkvcHJvdmlkZXJzL01pY3Jvc29mdC5OZXR3b3JrL3RyYWZmaWNtYW5hZ2VycHJvZmlsZXMvb25lc2RrMTIxOD9hcGktdmVyc2lvbj0yMDE3LTA1LTAx",
+      "RequestUri": "/subscriptions/e68d4145-c9ae-4667-925d-c51c8d88ad73/resourceGroups/onesdk5017/providers/Microsoft.Network/trafficmanagerprofiles/onesdk4524?api-version=2017-05-01",
+      "EncodedRequestUri": "L3N1YnNjcmlwdGlvbnMvZTY4ZDQxNDUtYzlhZS00NjY3LTkyNWQtYzUxYzhkODhhZDczL3Jlc291cmNlR3JvdXBzL29uZXNkazUwMTcvcHJvdmlkZXJzL01pY3Jvc29mdC5OZXR3b3JrL3RyYWZmaWNtYW5hZ2VycHJvZmlsZXMvb25lc2RrNDUyND9hcGktdmVyc2lvbj0yMDE3LTA1LTAx",
       "RequestMethod": "GET",
       "RequestBody": "",
       "RequestHeaders": {
         "x-ms-client-request-id": [
-          "6cadef7c-affd-4d52-a7c8-198d96d32827"
+          "b94f1861-afd5-4279-b249-3af486117c45"
         ],
         "accept-language": [
           "en-US"
@@ -73,7 +73,7 @@
           "Microsoft.Azure.Management.TrafficManager.TrafficManagerManagementClient/2.3.0.0"
         ]
       },
-      "ResponseBody": "{\r\n  \"error\": {\r\n    \"code\": \"ResourceNotFound\",\r\n    \"message\": \"The Resource 'Microsoft.Network/trafficmanagerprofiles/onesdk1218' under resource group 'onesdk7859' was not found.\"\r\n  }\r\n}",
+      "ResponseBody": "{\r\n  \"error\": {\r\n    \"code\": \"ResourceNotFound\",\r\n    \"message\": \"The Resource 'Microsoft.Network/trafficmanagerprofiles/onesdk4524' under resource group 'onesdk5017' was not found.\"\r\n  }\r\n}",
       "ResponseHeaders": {
         "Content-Length": [
           "165"
@@ -91,13 +91,13 @@
           "gateway"
         ],
         "x-ms-request-id": [
-          "f995a409-f6b0-4b62-83c3-89bf85625a0a"
+          "81446b69-c136-41e1-850c-f9cb51f0ada0"
         ],
         "x-ms-correlation-request-id": [
-          "f995a409-f6b0-4b62-83c3-89bf85625a0a"
+          "81446b69-c136-41e1-850c-f9cb51f0ada0"
         ],
         "x-ms-routing-request-id": [
-          "CENTRALUS:20170519T160411Z:f995a409-f6b0-4b62-83c3-89bf85625a0a"
+          "WESTEUROPE:20170522T111225Z:81446b69-c136-41e1-850c-f9cb51f0ada0"
         ],
         "Strict-Transport-Security": [
           "max-age=31536000; includeSubDomains"
@@ -106,19 +106,19 @@
           "no-cache"
         ],
         "Date": [
-          "Fri, 19 May 2017 16:04:11 GMT"
+          "Mon, 22 May 2017 11:12:25 GMT"
         ]
       },
       "StatusCode": 404
     },
     {
-      "RequestUri": "/subscriptions/e68d4145-c9ae-4667-925d-c51c8d88ad73/resourceGroups/onesdk7859/providers/Microsoft.Network/trafficmanagerprofiles/onesdk1218?api-version=2017-05-01",
-      "EncodedRequestUri": "L3N1YnNjcmlwdGlvbnMvZTY4ZDQxNDUtYzlhZS00NjY3LTkyNWQtYzUxYzhkODhhZDczL3Jlc291cmNlR3JvdXBzL29uZXNkazc4NTkvcHJvdmlkZXJzL01pY3Jvc29mdC5OZXR3b3JrL3RyYWZmaWNtYW5hZ2VycHJvZmlsZXMvb25lc2RrMTIxOD9hcGktdmVyc2lvbj0yMDE3LTA1LTAx",
+      "RequestUri": "/subscriptions/e68d4145-c9ae-4667-925d-c51c8d88ad73/resourceGroups/onesdk5017/providers/Microsoft.Network/trafficmanagerprofiles/onesdk4524?api-version=2017-05-01",
+      "EncodedRequestUri": "L3N1YnNjcmlwdGlvbnMvZTY4ZDQxNDUtYzlhZS00NjY3LTkyNWQtYzUxYzhkODhhZDczL3Jlc291cmNlR3JvdXBzL29uZXNkazUwMTcvcHJvdmlkZXJzL01pY3Jvc29mdC5OZXR3b3JrL3RyYWZmaWNtYW5hZ2VycHJvZmlsZXMvb25lc2RrNDUyND9hcGktdmVyc2lvbj0yMDE3LTA1LTAx",
       "RequestMethod": "GET",
       "RequestBody": "",
       "RequestHeaders": {
         "x-ms-client-request-id": [
-          "47371f70-8fbb-4d64-ad23-321c89e64fd4"
+          "a3961e5a-5e21-4a25-bfed-179c62f5dc8a"
         ],
         "accept-language": [
           "en-US"
@@ -130,7 +130,7 @@
           "Microsoft.Azure.Management.TrafficManager.TrafficManagerManagementClient/2.3.0.0"
         ]
       },
-      "ResponseBody": "{\r\n  \"id\": \"/subscriptions/e68d4145-c9ae-4667-925d-c51c8d88ad73/resourceGroups/onesdk7859/providers/Microsoft.Network/trafficManagerProfiles/onesdk1218\",\r\n  \"name\": \"onesdk1218\",\r\n  \"type\": \"Microsoft.Network/trafficManagerProfiles\",\r\n  \"location\": \"global\",\r\n  \"tags\": {},\r\n  \"properties\": {\r\n    \"profileStatus\": \"Enabled\",\r\n    \"trafficRoutingMethod\": \"Weighted\",\r\n    \"dnsConfig\": {\r\n      \"relativeName\": \"onesdk7938\",\r\n      \"fqdn\": \"onesdk7938.tmpreview.watmtest.azure-test.net\",\r\n      \"ttl\": 0\r\n    },\r\n    \"monitorConfig\": {\r\n      \"profileMonitorStatus\": \"Inactive\",\r\n      \"protocol\": \"HTTP\",\r\n      \"port\": 80,\r\n      \"path\": \"/testpath.asp\",\r\n      \"intervalInSeconds\": 10,\r\n      \"toleratedNumberOfFailures\": 1,\r\n      \"timeoutInSeconds\": 7\r\n    },\r\n    \"endpoints\": []\r\n  }\r\n}",
+      "ResponseBody": "{\r\n  \"id\": \"/subscriptions/e68d4145-c9ae-4667-925d-c51c8d88ad73/resourceGroups/onesdk5017/providers/Microsoft.Network/trafficManagerProfiles/onesdk4524\",\r\n  \"name\": \"onesdk4524\",\r\n  \"type\": \"Microsoft.Network/trafficManagerProfiles\",\r\n  \"location\": \"global\",\r\n  \"tags\": {},\r\n  \"properties\": {\r\n    \"profileStatus\": \"Enabled\",\r\n    \"trafficRoutingMethod\": \"Weighted\",\r\n    \"dnsConfig\": {\r\n      \"relativeName\": \"onesdk3584\",\r\n      \"fqdn\": \"onesdk3584.tmpreview.watmtest.azure-test.net\",\r\n      \"ttl\": 0\r\n    },\r\n    \"monitorConfig\": {\r\n      \"profileMonitorStatus\": \"Inactive\",\r\n      \"protocol\": \"HTTP\",\r\n      \"port\": 80,\r\n      \"path\": \"/testpath.asp\",\r\n      \"intervalInSeconds\": 10,\r\n      \"toleratedNumberOfFailures\": 1,\r\n      \"timeoutInSeconds\": 7\r\n    },\r\n    \"endpoints\": []\r\n  }\r\n}",
       "ResponseHeaders": {
         "Content-Length": [
           "629"
@@ -145,22 +145,22 @@
           "max-age=31536000; includeSubDomains"
         ],
         "x-ms-request-id": [
-          "47371f70-8fbb-4d64-ad23-321c89e64fd4"
+          "a3961e5a-5e21-4a25-bfed-179c62f5dc8a"
         ],
         "x-ms-ratelimit-remaining-subscription-resource-requests": [
-          "10792"
+          "10794"
         ],
         "x-ms-correlation-request-id": [
-          "97a1c82b-3b41-4354-b73c-676713d90426"
+          "6f426f89-74e8-4edf-a5d7-fe2e407876de"
         ],
         "x-ms-routing-request-id": [
-          "CENTRALUS:20170519T160412Z:97a1c82b-3b41-4354-b73c-676713d90426"
+          "WESTEUROPE:20170522T111228Z:6f426f89-74e8-4edf-a5d7-fe2e407876de"
         ],
         "Cache-Control": [
           "private"
         ],
         "Date": [
-          "Fri, 19 May 2017 16:04:12 GMT"
+          "Mon, 22 May 2017 11:12:28 GMT"
         ],
         "Server": [
           "Microsoft-IIS/8.5"
@@ -175,10 +175,10 @@
       "StatusCode": 200
     },
     {
-      "RequestUri": "/subscriptions/e68d4145-c9ae-4667-925d-c51c8d88ad73/resourceGroups/onesdk7859/providers/Microsoft.Network/trafficmanagerprofiles/onesdk1218?api-version=2017-05-01",
-      "EncodedRequestUri": "L3N1YnNjcmlwdGlvbnMvZTY4ZDQxNDUtYzlhZS00NjY3LTkyNWQtYzUxYzhkODhhZDczL3Jlc291cmNlR3JvdXBzL29uZXNkazc4NTkvcHJvdmlkZXJzL01pY3Jvc29mdC5OZXR3b3JrL3RyYWZmaWNtYW5hZ2VycHJvZmlsZXMvb25lc2RrMTIxOD9hcGktdmVyc2lvbj0yMDE3LTA1LTAx",
+      "RequestUri": "/subscriptions/e68d4145-c9ae-4667-925d-c51c8d88ad73/resourceGroups/onesdk5017/providers/Microsoft.Network/trafficmanagerprofiles/onesdk4524?api-version=2017-05-01",
+      "EncodedRequestUri": "L3N1YnNjcmlwdGlvbnMvZTY4ZDQxNDUtYzlhZS00NjY3LTkyNWQtYzUxYzhkODhhZDczL3Jlc291cmNlR3JvdXBzL29uZXNkazUwMTcvcHJvdmlkZXJzL01pY3Jvc29mdC5OZXR3b3JrL3RyYWZmaWNtYW5hZ2VycHJvZmlsZXMvb25lc2RrNDUyND9hcGktdmVyc2lvbj0yMDE3LTA1LTAx",
       "RequestMethod": "PUT",
-      "RequestBody": "{\r\n  \"properties\": {\r\n    \"trafficRoutingMethod\": \"Weighted\",\r\n    \"dnsConfig\": {\r\n      \"relativeName\": \"onesdk7938\",\r\n      \"ttl\": 0\r\n    },\r\n    \"monitorConfig\": {\r\n      \"protocol\": \"HTTP\",\r\n      \"port\": 80,\r\n      \"path\": \"/testpath.asp\",\r\n      \"intervalInSeconds\": 10,\r\n      \"timeoutInSeconds\": 7,\r\n      \"toleratedNumberOfFailures\": 1\r\n    }\r\n  },\r\n  \"location\": \"global\"\r\n}",
+      "RequestBody": "{\r\n  \"properties\": {\r\n    \"trafficRoutingMethod\": \"Weighted\",\r\n    \"dnsConfig\": {\r\n      \"relativeName\": \"onesdk3584\",\r\n      \"ttl\": 0\r\n    },\r\n    \"monitorConfig\": {\r\n      \"protocol\": \"HTTP\",\r\n      \"port\": 80,\r\n      \"path\": \"/testpath.asp\",\r\n      \"intervalInSeconds\": 10,\r\n      \"timeoutInSeconds\": 7,\r\n      \"toleratedNumberOfFailures\": 1\r\n    }\r\n  },\r\n  \"location\": \"global\"\r\n}",
       "RequestHeaders": {
         "Content-Type": [
           "application/json; charset=utf-8"
@@ -187,7 +187,7 @@
           "384"
         ],
         "x-ms-client-request-id": [
-          "e8892794-b477-41b2-b0af-e5d0450c3213"
+          "5b2754cc-027d-4a3f-8309-777aa3fad998"
         ],
         "accept-language": [
           "en-US"
@@ -199,7 +199,7 @@
           "Microsoft.Azure.Management.TrafficManager.TrafficManagerManagementClient/2.3.0.0"
         ]
       },
-      "ResponseBody": "{\r\n  \"id\": \"/subscriptions/e68d4145-c9ae-4667-925d-c51c8d88ad73/resourceGroups/onesdk7859/providers/Microsoft.Network/trafficManagerProfiles/onesdk1218\",\r\n  \"name\": \"onesdk1218\",\r\n  \"type\": \"Microsoft.Network/trafficManagerProfiles\",\r\n  \"location\": \"global\",\r\n  \"properties\": {\r\n    \"profileStatus\": \"Enabled\",\r\n    \"trafficRoutingMethod\": \"Weighted\",\r\n    \"dnsConfig\": {\r\n      \"relativeName\": \"onesdk7938\",\r\n      \"fqdn\": \"onesdk7938.tmpreview.watmtest.azure-test.net\",\r\n      \"ttl\": 0\r\n    },\r\n    \"monitorConfig\": {\r\n      \"profileMonitorStatus\": \"Inactive\",\r\n      \"protocol\": \"HTTP\",\r\n      \"port\": 80,\r\n      \"path\": \"/testpath.asp\",\r\n      \"intervalInSeconds\": 10,\r\n      \"toleratedNumberOfFailures\": 1,\r\n      \"timeoutInSeconds\": 7\r\n    },\r\n    \"endpoints\": []\r\n  }\r\n}",
+      "ResponseBody": "{\r\n  \"id\": \"/subscriptions/e68d4145-c9ae-4667-925d-c51c8d88ad73/resourceGroups/onesdk5017/providers/Microsoft.Network/trafficManagerProfiles/onesdk4524\",\r\n  \"name\": \"onesdk4524\",\r\n  \"type\": \"Microsoft.Network/trafficManagerProfiles\",\r\n  \"location\": \"global\",\r\n  \"properties\": {\r\n    \"profileStatus\": \"Enabled\",\r\n    \"trafficRoutingMethod\": \"Weighted\",\r\n    \"dnsConfig\": {\r\n      \"relativeName\": \"onesdk3584\",\r\n      \"fqdn\": \"onesdk3584.tmpreview.watmtest.azure-test.net\",\r\n      \"ttl\": 0\r\n    },\r\n    \"monitorConfig\": {\r\n      \"profileMonitorStatus\": \"Inactive\",\r\n      \"protocol\": \"HTTP\",\r\n      \"port\": 80,\r\n      \"path\": \"/testpath.asp\",\r\n      \"intervalInSeconds\": 10,\r\n      \"toleratedNumberOfFailures\": 1,\r\n      \"timeoutInSeconds\": 7\r\n    },\r\n    \"endpoints\": []\r\n  }\r\n}",
       "ResponseHeaders": {
         "Content-Length": [
           "619"
@@ -214,22 +214,22 @@
           "max-age=31536000; includeSubDomains"
         ],
         "x-ms-request-id": [
-          "e8892794-b477-41b2-b0af-e5d0450c3213"
+          "5b2754cc-027d-4a3f-8309-777aa3fad998"
         ],
         "x-ms-ratelimit-remaining-subscription-resource-requests": [
-          "10794"
+          "10795"
         ],
         "x-ms-correlation-request-id": [
-          "8d7ee0fa-b151-43e4-ac03-5578922c3990"
+          "94ada50a-2a54-4206-a75b-2f307ee3ef4c"
         ],
         "x-ms-routing-request-id": [
-          "CENTRALUS:20170519T160412Z:8d7ee0fa-b151-43e4-ac03-5578922c3990"
+          "WESTEUROPE:20170522T111228Z:94ada50a-2a54-4206-a75b-2f307ee3ef4c"
         ],
         "Cache-Control": [
           "private"
         ],
         "Date": [
-          "Fri, 19 May 2017 16:04:12 GMT"
+          "Mon, 22 May 2017 11:12:27 GMT"
         ],
         "Server": [
           "Microsoft-IIS/8.5"
@@ -244,10 +244,10 @@
       "StatusCode": 201
     },
     {
-      "RequestUri": "/subscriptions/e68d4145-c9ae-4667-925d-c51c8d88ad73/resourceGroups/onesdk7859/providers/Microsoft.Network/trafficmanagerprofiles/onesdk1218?api-version=2017-05-01",
-      "EncodedRequestUri": "L3N1YnNjcmlwdGlvbnMvZTY4ZDQxNDUtYzlhZS00NjY3LTkyNWQtYzUxYzhkODhhZDczL3Jlc291cmNlR3JvdXBzL29uZXNkazc4NTkvcHJvdmlkZXJzL01pY3Jvc29mdC5OZXR3b3JrL3RyYWZmaWNtYW5hZ2VycHJvZmlsZXMvb25lc2RrMTIxOD9hcGktdmVyc2lvbj0yMDE3LTA1LTAx",
+      "RequestUri": "/subscriptions/e68d4145-c9ae-4667-925d-c51c8d88ad73/resourceGroups/onesdk5017/providers/Microsoft.Network/trafficmanagerprofiles/onesdk4524?api-version=2017-05-01",
+      "EncodedRequestUri": "L3N1YnNjcmlwdGlvbnMvZTY4ZDQxNDUtYzlhZS00NjY3LTkyNWQtYzUxYzhkODhhZDczL3Jlc291cmNlR3JvdXBzL29uZXNkazUwMTcvcHJvdmlkZXJzL01pY3Jvc29mdC5OZXR3b3JrL3RyYWZmaWNtYW5hZ2VycHJvZmlsZXMvb25lc2RrNDUyND9hcGktdmVyc2lvbj0yMDE3LTA1LTAx",
       "RequestMethod": "PUT",
-      "RequestBody": "{\r\n  \"properties\": {\r\n    \"profileStatus\": \"Enabled\",\r\n    \"trafficRoutingMethod\": \"Weighted\",\r\n    \"dnsConfig\": {\r\n      \"relativeName\": \"onesdk7938\",\r\n      \"ttl\": 5\r\n    },\r\n    \"monitorConfig\": {\r\n      \"protocol\": \"HTTP\",\r\n      \"port\": 80,\r\n      \"path\": \"/testpath.asp\",\r\n      \"intervalInSeconds\": 30,\r\n      \"timeoutInSeconds\": 8,\r\n      \"toleratedNumberOfFailures\": 0\r\n    }\r\n  },\r\n  \"location\": \"global\"\r\n}",
+      "RequestBody": "{\r\n  \"properties\": {\r\n    \"profileStatus\": \"Enabled\",\r\n    \"trafficRoutingMethod\": \"Weighted\",\r\n    \"dnsConfig\": {\r\n      \"relativeName\": \"onesdk3584\",\r\n      \"ttl\": 5\r\n    },\r\n    \"monitorConfig\": {\r\n      \"protocol\": \"HTTP\",\r\n      \"port\": 80,\r\n      \"path\": \"/testpath.asp\",\r\n      \"intervalInSeconds\": 30,\r\n      \"timeoutInSeconds\": 8,\r\n      \"toleratedNumberOfFailures\": 0\r\n    }\r\n  },\r\n  \"location\": \"global\"\r\n}",
       "RequestHeaders": {
         "Content-Type": [
           "application/json; charset=utf-8"
@@ -256,7 +256,7 @@
           "417"
         ],
         "x-ms-client-request-id": [
-          "832bb518-d6d1-4dbd-8287-15f63b364f90"
+          "dc552da2-d4a2-49f2-a8ba-ba40dbbdbde9"
         ],
         "accept-language": [
           "en-US"
@@ -268,7 +268,7 @@
           "Microsoft.Azure.Management.TrafficManager.TrafficManagerManagementClient/2.3.0.0"
         ]
       },
-      "ResponseBody": "{\r\n  \"id\": \"/subscriptions/e68d4145-c9ae-4667-925d-c51c8d88ad73/resourceGroups/onesdk7859/providers/Microsoft.Network/trafficManagerProfiles/onesdk1218\",\r\n  \"name\": \"onesdk1218\",\r\n  \"type\": \"Microsoft.Network/trafficManagerProfiles\",\r\n  \"location\": \"global\",\r\n  \"properties\": {\r\n    \"profileStatus\": \"Enabled\",\r\n    \"trafficRoutingMethod\": \"Weighted\",\r\n    \"dnsConfig\": {\r\n      \"relativeName\": \"onesdk7938\",\r\n      \"fqdn\": \"onesdk7938.tmpreview.watmtest.azure-test.net\",\r\n      \"ttl\": 5\r\n    },\r\n    \"monitorConfig\": {\r\n      \"profileMonitorStatus\": \"Inactive\",\r\n      \"protocol\": \"HTTP\",\r\n      \"port\": 80,\r\n      \"path\": \"/testpath.asp\",\r\n      \"intervalInSeconds\": 30,\r\n      \"toleratedNumberOfFailures\": 0,\r\n      \"timeoutInSeconds\": 8\r\n    },\r\n    \"endpoints\": []\r\n  }\r\n}",
+      "ResponseBody": "{\r\n  \"id\": \"/subscriptions/e68d4145-c9ae-4667-925d-c51c8d88ad73/resourceGroups/onesdk5017/providers/Microsoft.Network/trafficManagerProfiles/onesdk4524\",\r\n  \"name\": \"onesdk4524\",\r\n  \"type\": \"Microsoft.Network/trafficManagerProfiles\",\r\n  \"location\": \"global\",\r\n  \"properties\": {\r\n    \"profileStatus\": \"Enabled\",\r\n    \"trafficRoutingMethod\": \"Weighted\",\r\n    \"dnsConfig\": {\r\n      \"relativeName\": \"onesdk3584\",\r\n      \"fqdn\": \"onesdk3584.tmpreview.watmtest.azure-test.net\",\r\n      \"ttl\": 5\r\n    },\r\n    \"monitorConfig\": {\r\n      \"profileMonitorStatus\": \"Inactive\",\r\n      \"protocol\": \"HTTP\",\r\n      \"port\": 80,\r\n      \"path\": \"/testpath.asp\",\r\n      \"intervalInSeconds\": 30,\r\n      \"toleratedNumberOfFailures\": 0,\r\n      \"timeoutInSeconds\": 8\r\n    },\r\n    \"endpoints\": []\r\n  }\r\n}",
       "ResponseHeaders": {
         "Content-Length": [
           "619"
@@ -283,22 +283,22 @@
           "max-age=31536000; includeSubDomains"
         ],
         "x-ms-request-id": [
-          "832bb518-d6d1-4dbd-8287-15f63b364f90"
+          "dc552da2-d4a2-49f2-a8ba-ba40dbbdbde9"
         ],
         "x-ms-ratelimit-remaining-subscription-resource-requests": [
-          "10793"
+          "10794"
         ],
         "x-ms-correlation-request-id": [
-          "afb49078-9e46-4801-aaab-88ad9c242d9b"
+          "126ab363-582c-4ec6-99fd-ab5671906c7b"
         ],
         "x-ms-routing-request-id": [
-          "CENTRALUS:20170519T160413Z:afb49078-9e46-4801-aaab-88ad9c242d9b"
+          "WESTEUROPE:20170522T111228Z:126ab363-582c-4ec6-99fd-ab5671906c7b"
         ],
         "Cache-Control": [
           "private"
         ],
         "Date": [
-          "Fri, 19 May 2017 16:04:12 GMT"
+          "Mon, 22 May 2017 11:12:28 GMT"
         ],
         "Server": [
           "Microsoft-IIS/8.5"
@@ -313,13 +313,13 @@
       "StatusCode": 200
     },
     {
-      "RequestUri": "/subscriptions/e68d4145-c9ae-4667-925d-c51c8d88ad73/resourceGroups/onesdk7859/providers/Microsoft.Network/trafficmanagerprofiles/onesdk1218?api-version=2017-05-01",
-      "EncodedRequestUri": "L3N1YnNjcmlwdGlvbnMvZTY4ZDQxNDUtYzlhZS00NjY3LTkyNWQtYzUxYzhkODhhZDczL3Jlc291cmNlR3JvdXBzL29uZXNkazc4NTkvcHJvdmlkZXJzL01pY3Jvc29mdC5OZXR3b3JrL3RyYWZmaWNtYW5hZ2VycHJvZmlsZXMvb25lc2RrMTIxOD9hcGktdmVyc2lvbj0yMDE3LTA1LTAx",
+      "RequestUri": "/subscriptions/e68d4145-c9ae-4667-925d-c51c8d88ad73/resourceGroups/onesdk5017/providers/Microsoft.Network/trafficmanagerprofiles/onesdk4524?api-version=2017-05-01",
+      "EncodedRequestUri": "L3N1YnNjcmlwdGlvbnMvZTY4ZDQxNDUtYzlhZS00NjY3LTkyNWQtYzUxYzhkODhhZDczL3Jlc291cmNlR3JvdXBzL29uZXNkazUwMTcvcHJvdmlkZXJzL01pY3Jvc29mdC5OZXR3b3JrL3RyYWZmaWNtYW5hZ2VycHJvZmlsZXMvb25lc2RrNDUyND9hcGktdmVyc2lvbj0yMDE3LTA1LTAx",
       "RequestMethod": "DELETE",
       "RequestBody": "",
       "RequestHeaders": {
         "x-ms-client-request-id": [
-          "c56e1e97-e01c-47a8-8dd1-b0a419991f19"
+          "3e450a3d-f633-4ae3-a59e-2ab85c2d4580"
         ],
         "accept-language": [
           "en-US"
@@ -343,22 +343,22 @@
           "max-age=31536000; includeSubDomains"
         ],
         "x-ms-request-id": [
-          "c56e1e97-e01c-47a8-8dd1-b0a419991f19"
+          "3e450a3d-f633-4ae3-a59e-2ab85c2d4580"
         ],
         "x-ms-ratelimit-remaining-subscription-resource-requests": [
-          "10799"
+          "10798"
         ],
         "x-ms-correlation-request-id": [
-          "2301e450-15b5-4cf6-b785-0302410c1fd6"
+          "29a5e338-fcec-46c0-a3fb-0cdbb4d51b4a"
         ],
         "x-ms-routing-request-id": [
-          "CENTRALUS:20170519T160413Z:2301e450-15b5-4cf6-b785-0302410c1fd6"
+          "WESTEUROPE:20170522T111230Z:29a5e338-fcec-46c0-a3fb-0cdbb4d51b4a"
         ],
         "Cache-Control": [
           "private"
         ],
         "Date": [
-          "Fri, 19 May 2017 16:04:13 GMT"
+          "Mon, 22 May 2017 11:12:30 GMT"
         ],
         "Server": [
           "Microsoft-IIS/8.5"
@@ -375,9 +375,9 @@
   ],
   "Names": {
     "Test-ProfileMonitorCustom": [
-      "onesdk1218",
-      "onesdk7859",
-      "onesdk7938"
+      "onesdk4524",
+      "onesdk5017",
+      "onesdk3584"
     ]
   },
   "Variables": {
